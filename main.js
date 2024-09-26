@@ -12,7 +12,7 @@ var names = [
     ];
     var data="";
     for(var index=0;index<names.length;index++)
-        data+=`<td>${names[index]}</td>`;
-    document.querySelector(" tbody tr  ").innerHTML=data;
+        data+=`<tr>${names[index]}</tr>`;
+    document.querySelector(" tbody ").innerHTML=data;
 
     
